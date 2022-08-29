@@ -1,4 +1,4 @@
-@value makerShadow, makerBlack, makerWhite, makerColorful, makerWheat from '../../common/colors.css';
+@value makerMint, makerWhite, makerYellow, makerDarkBrown from '../../common/colors.css';
 
 .card {
   display: flex;
@@ -8,22 +8,20 @@
   margin-bottom: 0.5em;
   padding: 0.2em 0;
   background-color: lightblue;
-  box-shadow: 6px 6px 8px 0px makerShadow;
+  color: makerDarkBrown;
   max-width: 30rem;
 }
 
-.card.dark {
-  background-color: makerBlack;
-  color: makerWhite;
+.card.mint {
+  background-color: makerMint;
 }
 
-.card.light {
+.card.white {
   background-color: makerWhite;
-  color: makerBlack;
 }
 
-.card.colorful {
-  background: makerColorful;
+.card.yellow {
+  background: makerYellow;
 }
 
 .avatar {

@@ -23,12 +23,12 @@ const Card = ({ card }) => {
 
 function getStyles(theme) {
   switch (theme) {
-    case 'dark':
-      return styles.dark;
-    case 'light':
-      return styles.light;
-    case 'colorful':
-      return styles.colorful;
+    case 'mint':
+      return styles.mint;
+    case 'white':
+      return styles.white;
+    case 'yellow':
+      return styles.yellow;
     default:
       throw new Error(`unknown theme: ${theme}`);
   }

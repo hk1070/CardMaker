@@ -1,10 +1,10 @@
-@value makerGreen, makerWhite, makerBlack from '../../common/colors.css';
+@value makerBrown, makerWhite, makerYellow, makerDarkBrown from '../../common/colors.css';
 
 .header {
   width: 100%;
   text-align: center;
   padding: 0.5em;
-  background-color: makerGreen;
+  background-color: makerBrown;
   position: relative;
 }
 
@@ -23,8 +23,9 @@
   top: 1em;
   padding: 0.8em;
   border-radius: 20%;
-  background-color: makerBlack;
-  color: makerWhite;
+  background-color: makerYellow;
+  color: makerDarkBrown;
+  font-weight: bold;
   outline: 0;
   border: 0;
   cursor: pointer;
