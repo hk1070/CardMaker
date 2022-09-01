@@ -1,7 +1,8 @@
-@value makerDarkBrown,  makerLightGrey from '../../common/colors.css';
+@value makerDarkBrown, makerLightGrey, makerWheat from '../../common/colors.css';
 
 .preview {
   flex-basis: 50%;
+  background-color: makerWheat;
 }
 
 .title {

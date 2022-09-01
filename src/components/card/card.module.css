@@ -1,4 +1,4 @@
-@value makerMint, makerWhite, makerYellow, makerDarkBrown from '../../common/colors.css';
+@value makerMint, makerWhite, makerWheat, makerYellow, makerDarkBrown from '../../common/colors.css';
 
 .card {
   display: flex;
