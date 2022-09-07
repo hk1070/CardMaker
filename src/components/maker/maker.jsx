@@ -23,7 +23,7 @@ const Maker = ({ FileInput, authService }) => {
       id: '2',
       name: 'b',
       company: 'b',
-      theme: 'white',
+      theme: 'wheat',
       title: 'Software Engineer',
       email: 'abc@gmail.com',
       message: 'Hi',

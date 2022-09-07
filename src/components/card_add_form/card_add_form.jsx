@@ -60,7 +60,7 @@ const CardAddForm = ({ FileInput, onAdd }) => {
         placeholder='Theme'
       >
         <option placeholder='mint'>mint</option>
-        <option placeholder='white'>white</option>
+        <option placeholder='wheat'>wheat</option>
         <option placeholder='yellow'>yellow</option>
       </select>
       <input

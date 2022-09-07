@@ -25,8 +25,8 @@ function getStyles(theme) {
   switch (theme) {
     case 'mint':
       return styles.mint;
-    case 'white':
-      return styles.white;
+    case 'wheat':
+      return styles.wheat;
     case 'yellow':
       return styles.yellow;
     default:
