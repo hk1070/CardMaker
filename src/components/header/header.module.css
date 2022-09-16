@@ -3,13 +3,9 @@
 .header {
   width: 100%;
   text-align: center;
-  padding: 0.5em;
+  padding: 1.5em;
   background-color: makerBrown;
   position: relative;
-}
-
-.logo {
-  width: 3em;
 }
 
 .title {
@@ -20,8 +16,8 @@
 .logout {
   position: absolute;
   right: 3em;
-  top: 1em;
-  padding: 0.8em;
+  top: 1.5em;
+  padding: 1em;
   border-radius: 20%;
   background-color: makerYellow;
   color: makerDarkBrown;
