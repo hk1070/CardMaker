@@ -5,7 +5,6 @@ import Preview from '../preview/preview';
 import Footer from '../footer/footer';
 import Header from '../header/header';
 import styles from './maker.module.css';
-import CardRepository from '../../service/card_repository';
 
 const Maker = ({ FileInput, authService, cardRepository }) => {
   const navigateState = useLocation().state;
@@ -25,7 +24,7 @@ const Maker = ({ FileInput, authService, cardRepository }) => {
       setCards(cards);
     });
     return () => stopSync();
-  }, [userId]);
+  }, [userId, cardRepository]);
 
   useEffect(() => {
     authService.onAuthChange((user) => {
@@ -35,7 +34,7 @@ const Maker = ({ FileInput, authService, cardRepository }) => {
         navigate('/');
       }
     });
-  });
+  }, [authService, userId, navigate]);
 
   const createOrUpdateCard = (card) => {
     setCards((cards) => {
