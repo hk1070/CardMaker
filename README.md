@@ -7,9 +7,6 @@
 <img width="60%" src="https://user-images.githubusercontent.com/85146819/204582819-31565952-3ee1-4849-9a22-308628b3b6e6.png">
 
 
-<img width="60%" src="https://user-images.githubusercontent.com/85146819/204582920-1fab6f94-d9b0-4b0e-ae66-5ba36b646ae0.png">
-
-
 ***
 
 #### 구현한 기능 
