@@ -4,7 +4,9 @@
 
 #### React 로 만든 Card Maker입니다.
 
-<img width="60%" src="https://user-images.githubusercontent.com/85146819/204575518-fe0d02bf-337a-40ab-a406-b0a116af1271.png">
+<img width="60%" src="https://user-images.githubusercontent.com/85146819/204576235-2da7034f-0323-42cf-8386-ad84de57e271.png">
+
+
 
 
 ***
